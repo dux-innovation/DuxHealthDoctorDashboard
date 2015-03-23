@@ -40,7 +40,7 @@ sap.ui.jsview("view.launchpad", {
 						iconDensityAware: false,
 						removable: false,
 						press: function(){
-							window.location.assign("../DuxHealthPrescriptionApp");
+							window.location.assign("../DuxHealthDoctorPepApp");
 						}
 					}),
 
@@ -51,7 +51,7 @@ sap.ui.jsview("view.launchpad", {
 						iconDensityAware: false,
 						removable: false,
 						press: function(){
-							window.location.assign("../DuxHealthPrescriptionApp");
+							window.location.assign("../DuxHealthDoctorPepHistoryApp");
 						}
 					})
 				]
