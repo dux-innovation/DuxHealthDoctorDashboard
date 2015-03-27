@@ -62,7 +62,48 @@ sap.ui.jsview("view.launchpad",
                             {
                                 //window.location.assign("../DuxHealthDoctorPepHistoryApp");
                             }
-                        })
+                        }),
+
+                        new sap.m.StandardTile("tile_calendar",
+                        {
+                            title: "{i18n>Tile_Title_Calendar}",
+                            info: "{i18n>Tile_Info_Calendar}",
+                            icon: "sap-icon://calendar",
+                            iconDensityAware: false,
+                            removable: false,
+                            press: function()
+                            {
+                                //window.location.assign("../DuxHealthDoctorPepHistoryApp");
+                            }
+                        }),
+
+                        new sap.m.StandardTile("tile_medical_certificate",
+                        {
+                            title: "{i18n>Tile_Title_Medical_Certificate}",
+                            info: "{i18n>Tile_Info_Medical_Certificate}",
+                            icon: "sap-icon://customer-and-contacts",
+                            iconDensityAware: false,
+                            removable: false,
+                            press: function()
+                            {
+                                //window.location.assign("../DuxHealthDoctorPepHistoryApp");
+                            }
+                        }),
+
+                        new sap.m.StandardTile("tile_next_patients",
+                        {
+                            title: "{i18n>Tile_Title_Next_Patients}",
+                            info: "{i18n>Tile_Info_Next_Patients}",
+                            icon: "sap-icon://group",
+                            iconDensityAware: false,
+                            removable: false,
+                            press: function()
+                            {
+                                //window.location.assign("../DuxHealthDoctorPepHistoryApp");
+                            }
+                        }),
+
+
                     ]
 
                 })
