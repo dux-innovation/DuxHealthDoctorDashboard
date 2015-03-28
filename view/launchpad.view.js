@@ -26,7 +26,7 @@ sap.ui.jsview("view.launchpad",
         var page = new sap.m.Page(
         {
             title: "Menu do Médico",
-            showNavButton: true,
+            showNavButton: false,
             backgroundDesign: sap.m.PageBackgroundDesign.Standard,
 
             content: [
